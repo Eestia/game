@@ -117,3 +117,9 @@ button {
 .result-text h2 {
   margin-top: 20px ;
 }
+@media (max-width: 426px) {
+#rule-section{
+    margin-left: 10px;
+    padding-bottom: 20px;
+}
+}

@@ -1,0 +1,25 @@
+.jeton-1 {
+  border-radius: 50%;
+  width: 180px; 
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jeton-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 140px;
+  background-color: white;
+  border-radius: 50%;
+  border-top: 5px solid rgb(189, 191, 212);
+  cursor: pointer;
+}
+
+.jeton-icon {
+  width: 50%;
+  height: auto;
+}

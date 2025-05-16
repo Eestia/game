@@ -5,7 +5,9 @@ html, body {
   padding: 0;
   background: radial-gradient(hsl(214, 47%, 23%) , hsl(237, 49%, 15%));
 }
-
+/* body *{
+  border: 1px solid red;
+} */
 #cadre-section{
     padding-top: 20px;
 }
@@ -119,7 +121,29 @@ button {
 }
 @media (max-width: 426px) {
 #rule-section{
-    margin-left: 10px;
-    padding-bottom: 20px;
+    margin-left: 1px;
+    margin-top: 150px;
+    padding-bottom: 10px;
+}
+#All-jeton {
+    background-image: url(./assets/images/bg-triangle.svg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px;
+}
+.duel{
+    display: flex;
+    justify-content: center;
+    gap: 50%;
+    position: relative;
+}
+.result-text {
+  position: absolute;
+  margin-top: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+  font-size: 30px;
 }
 }
